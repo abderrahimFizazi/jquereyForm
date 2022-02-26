@@ -1,0 +1,65 @@
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container input{
+    display: block;
+    margin: 10px auto;
+    font-size: 25px;
+    border-radius:5px;
+    border: 1px lightblue solid;
+    display: none;
+    
+}
+.container{
+    width:0px;
+    height:0px;
+    border: 1px solid lightblue;
+    margin: 50px auto;
+    text-align: center;
+ box-shadow: 5px 10px 20px lightblue inset;
+    overflow: hidden;
+
+}
+.welcome{
+    margin: 10px auto 10px;
+    font-size: 30px;
+}
+.container img{
+    margin: 30px auto;
+    display: none;
+}
+.container input[type=submit]{
+    width:250px;
+    height: 0px;
+    background-color: aqua;
+    color:white;
+}
+.container input:focus{
+     box-shadow: 5px 5px 10px #aaaaaa;
+    border:none;
+}
+.container div,.container a{
+    display: none;
+}
+.reminder{
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+}
+.Email,.Password,.reminder{
+     display: none;
+}
+.container a{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.a{
+    position: relative;
+    top:30px;
+    right: 90px;
+}

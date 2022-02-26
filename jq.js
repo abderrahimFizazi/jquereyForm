@@ -1,0 +1,38 @@
+$(document).ready(function(){
+              $(".container").animate({
+                  width:"350px",
+                  height:"10px",
+              },1000,function(){
+                  $(".container").animate({
+                      height:"450px",
+                  },1000,function(){
+                      $(".container").animate({
+                          borderRadius: "20px"
+                      },1000,function(){
+                          $(".image").fadeIn(1000,function(){
+                              $(".Email").slideDown(1000,function(){
+                                  $(".Password").slideDown(1000,function(){
+                                      $(".reminder").fadeIn(1000,function(){
+                                          $(".reminder").animate({
+                                              left:"-110px"
+                                          },1000,function(){
+                                              $('.submit').animate({
+                                                  height:"35px",
+                                                  display:"block"
+                                              },1000,function(){
+                                                  $(".a").fadeIn(1000,function(){
+                                                      $(".a").animate({
+                                                          left:"100px"
+                                                      })
+                                                  })
+                                              })
+                                          })
+                                      })
+                                  })
+                              })
+                          })
+                      })
+                  })
+              }
+              
+                                      )});
